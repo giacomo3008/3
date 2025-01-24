@@ -1,87 +1,88 @@
-import { Container, Card, Button, Col, Row } from 'react-bootstrap'
+import { Container, Card, Col, Row } from 'react-bootstrap'
+import './ContentCards.css'
 
 
 function DinamicsCards() {
     return (
         <>
-            <h2 className=" text-white display-5 fw-bold mt-5">Nuovi episodi radio</h2>
+            <h2 className=" text-white display-6 fw-bold mt-5 mb-3">Nuove uscite</h2>
             <Container fluid className='p-0 m-0'>
                 <Row>
-                    <Col xs={4}>
-                        <Card>
-                            <Card.Img variant="top" src="holder.js/100px180" />
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of th content.
+                    <Col xs={4} className='p-0'>
+                        <Card style={{ backgroundColor: 'transparent', width: '95%', marginBottom: '2rem' }}>
+                            <Card.Img variant="top" src="/src/assets/img/images/2c.png" />
+                            <Card.Body className='p-0'>
+                                <Card.Text className='fs-5 m-0 m-0'>
+                                    Song Placeholder
                                 </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <Card.Text className='grey-card m-0 artist-card'>
+                                    Artist Placeholder
+                                </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col xs={4}>
-                        <Card>
-                            <Card.Img variant="top" src="holder.js/100px180" />
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of th content.
+                    <Col xs={4} className='p-0'>
+                        <Card style={{ backgroundColor: 'transparent', width: '95%', marginBottom: '2rem' }}>
+                            <Card.Img variant="top" src="/src/assets/img/images/2c.png" />
+                            <Card.Body className='p-0'>
+                                <Card.Text className='fs-5 m-0'>
+                                    Song Placeholder
                                 </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <Card.Text className='grey-card m-0 artist-card'>
+                                    Artist Placeholder
+                                </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col xs={4}>
-                        <Card>
-                            <Card.Img variant="top" src="holder.js/100px180" />
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of th content.
+                    <Col xs={4} className='p-0'>
+                        <Card style={{ backgroundColor: 'transparent', width: '95%', marginBottom: '2rem' }}>
+                            <Card.Img variant="top" src="/src/assets/img/images/2c.png" />
+                            <Card.Body className='p-0'>
+                                <Card.Text className='fs-5 m-0'>
+                                    Song Placeholder
                                 </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <Card.Text className='grey-card m-0 artist-card'>
+                                    Artist Placeholder
+                                </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col xs={4}>
-                        <Card>
-                            <Card.Img variant="top" src="holder.js/100px180" />
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of th content.
+                    <Col xs={4} className='p-0'>
+                        <Card style={{ backgroundColor: 'transparent', width: '95%', marginBottom: '2rem' }}>
+                            <Card.Img variant="top" src="/src/assets/img/images/2c.png" />
+                            <Card.Body className='p-0'>
+                                <Card.Text className='fs-5 m-0'>
+                                    Song Placeholder
                                 </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <Card.Text className='grey-card m-0 artist-card'>
+                                    Artist Placeholder
+                                </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col xs={4}>
-                        <Card>
-                            <Card.Img variant="top" src="holder.js/100px180" />
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of th content.
+                    <Col xs={4} className='p-0'>
+                        <Card style={{ backgroundColor: 'transparent', width: '95%', marginBottom: '2rem' }}>
+                            <Card.Img variant="top" src="/src/assets/img/images/2c.png" />
+                            <Card.Body className='p-0'>
+                                <Card.Text className='fs-5 m-0'>
+                                    Song Placeholder
                                 </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <Card.Text className='grey-card m-0 artist-card'>
+                                    Artist Placeholder
+                                </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col xs={4}>
-                        <Card>
-                            <Card.Img variant="top" src="holder.js/100px180" />
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of th content.
+                    <Col xs={4} className='p-0'>
+                        <Card style={{ backgroundColor: 'transparent', width: '95%', marginBottom: '2rem' }}>
+                            <Card.Img variant="top" src="/src/assets/img/images/2c.png" />
+                            <Card.Body className='p-0'>
+                                <Card.Text className='fs-5 m-0'>
+                                    Song Placeholder
                                 </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <Card.Text className='grey-card m-0 artist-card'>
+                                    Artist Placeholder
+                                </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>

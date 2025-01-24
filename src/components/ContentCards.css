@@ -1,0 +1,21 @@
+.grey-card {
+    color: rgb(178, 178, 178);
+}
+
+.cc {
+    line-height: 1.1cm;
+}
+
+img {
+    border-radius: 15px !important;
+    height: auto;
+    width: 100%;
+}
+
+.second-cards {
+    color: rgb(208, 208, 208);
+}
+
+.artist-card {
+    font-size: 1.1rem;
+}
