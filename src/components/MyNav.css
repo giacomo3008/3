@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #2E2E2E;
+    padding: 15px 10px 15px 10px;
+}
+
+.button {
+    padding: 0;
+    border: none;
+}
+
+.accedi {
+    color: #FB576B;
+    text-decoration: none;
+}
+
+.white-link {
+    color: white !important;
+}
+
+.logo {
+    height: 100%;
+}
