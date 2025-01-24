@@ -1,6 +1,7 @@
 import { Container, Card, Col, Row } from 'react-bootstrap'
 import DinamicsCards from './DinamicsCards'
 import './ContentCards.css'
+import { MdKeyboardArrowRight } from "react-icons/md";
 
 function ContentCards() {
 
@@ -32,14 +33,18 @@ function ContentCards() {
             </div>
 
             <Container fluid className='p-0 m-0 mt-5'>
-                <h2 className=" text-white display-6 fw-bold mb-3">Nuovi episodi radio</h2>
+                <h2 className=" text-white display-6 fw-bold mb-3">Nuovi episodi radio <span> <MdKeyboardArrowRight /> </span></h2>
                 <Row className=' d-flex flex-row justify-content-between p-0 m-0'>
                     <Col xs={4} className='p-0'>
                         <Card style={{ backgroundColor: 'transparent', width: '95%' }}>
                             <Card.Img variant="top" src="/src/assets/img/images/2a.png" />
                             <Card.Body className='p-0'>
                                 <Card.Text className='fs-4 second-cards'>
-                                    Prólogo con Abuelo
+                                    <p className='d-flex flex-row justify-content-between align-items-center'>Prólogo con Abuelo
+                                        <span className="explicit-badge">
+                                            E
+                                        </span>
+                                    </p>
                                 </Card.Text>
                             </Card.Body>
                         </Card>

@@ -19,3 +19,18 @@ img {
 .artist-card {
     font-size: 1.1rem;
 }
+
+.explicit-badge {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #A9A9A9;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
